@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 10px;
+    background: black;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+section div:first-child {
+    margin-bottom: 10px;
+}
+
+section div a {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 49%;
+}
+
+section div a:nth-of-type(1) {
+    background-color: green;
+    box-shadow: 2px 0 0 white;
+}
+
+section div a:nth-of-type(2) {
+    margin-left: -2px;
+}
+
+section div a:nth-of-type(2):hover {
+    background-color: limegreen;
+}
+
+section div a:nth-of-type(2):active {
+    background-color: black;
+}
+
+section div span {
+    display: inline-block;
+    width: 2px;
+    background-color: white;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section form input {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+section form input[name="name"] {
+    width: 49%;
+}
+
+section form input[name="surname"] {
+    width: 49%;
+}
+
+section form input[type="button"] {
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
